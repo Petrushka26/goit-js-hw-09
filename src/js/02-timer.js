@@ -25,6 +25,7 @@ const options = {
       Notiflix.Notify.failure('Please choose a date in the future');
     } else {
       button.removeAttribute('disabled');
+      datePick.setAttribute('disabled', 'true');
     }
   },
 };
